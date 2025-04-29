@@ -1,2 +1,3 @@
-print("Auf Wiedersehen Welt")
-irgendwas
+<<<<<<< HEAD
+print("Hello, World")
+>>>>>>> feature
