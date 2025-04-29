@@ -84,8 +84,8 @@ Du kannst den Standard-Speicherort akzeptieren und ein Passwort festlegen oder e
 	
 15. Bearbeite die Datei "main.py" und führe einen Commit auf dem "feature"-Branch durch:
 
-	echo "print("ByeBye, World")" > main.py
-	
+	echo 'print("ByeBye, World")' > main.py
+
 	git add main.py
 	
 	git commit -m "Hauptdatei aktualisiert" 
@@ -100,7 +100,7 @@ Du kannst den Standard-Speicherort akzeptieren und ein Passwort festlegen oder e
 	
 17. Bearbeite die Datei "main.py" und führe einen Commit auf dem "main"-Branch durch:
 
-	echo "print("Hello, World")" > main.py
+	echo 'print("Hello, World")' > main.py
 	
 	git add main.py
 	
@@ -124,7 +124,9 @@ Du kannst den Standard-Speicherort akzeptieren und ein Passwort festlegen oder e
 	#Dokumentation zur RREADME.md hinzugefügt 
 	
 	git add -A
+	
 	git commit -m "README Dokumentation hinzugefügt"
+	
 	git push -u origin main
  
  
